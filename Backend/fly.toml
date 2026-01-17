@@ -1,0 +1,8 @@
+app = "ibn-halal-backend"
+primary_region = "iad"
+
+[build]
+  image = "dockerfile"
+
+[env]
+  PORT = "5000"

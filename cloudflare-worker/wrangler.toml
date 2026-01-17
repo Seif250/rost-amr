@@ -1,0 +1,15 @@
+name = "ibn-halal-daily-summaries"
+compatibility_date = "2026-01-17"
+main = "src/index.ts"
+
+# You should set your account_id when deploying via CI or local dev
+# account_id = ""
+
+[vars]
+# Example variables (for local testing you can put fallback values here, but do NOT commit secrets)
+# MONGO_DB_NAME = "mydatabase"
+# MONGO_DATA_SOURCE = "Cluster0"
+
+[[routes]]
+# Optional: add routes for custom domains after deploy
+# pattern = "https://api.yourdomain.com/*"

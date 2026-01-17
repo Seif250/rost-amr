@@ -1,0 +1,12 @@
+{
+  "name": "ibn-halal-dashboard-desktop",
+  "version": "1.0.0",
+  "description": "Electron desktop app for Ibn Halal admin dashboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^29.3.0"
+  }
+}

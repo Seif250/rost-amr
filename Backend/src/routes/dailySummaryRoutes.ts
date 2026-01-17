@@ -8,7 +8,7 @@ import {
   getWeeklySummary,
 } from '../controllers/dailySummaryController';
 
-const router = Router();
+const router: import('express').Router = Router();
 
 // GET /api/summaries - Get all daily summaries (last 7 days)
 router.get('/', getAllSummaries);
